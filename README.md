@@ -3,6 +3,28 @@
 ## Overview
 This API provides detailed pregnancy information week by week, including baby development, body changes, and helpful tips for expectant mothers.
 
+## Deployment on Render
+
+1. Create a new Web Service on Render:
+   - Go to https://dashboard.render.com
+   - Click "New +" and select "Web Service"
+   - Connect your GitHub repository
+
+2. Configure the Web Service:
+   - Name: pregnancy-tracking-api
+   - Environment: Node
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+   - Instance Type: Free
+
+3. Environment Variables:
+   - NODE_ENV: production
+   - PORT: 10000
+
+4. Deploy:
+   - Click "Create Web Service"
+   - Render will automatically build and deploy your API
+
 ## API Endpoints
 
 ### Get All Pregnancy Data
